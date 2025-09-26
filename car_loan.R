@@ -14,11 +14,13 @@ monthly_payment <- function (principal, annual_rate, years) {
   return(payment)
 }
 
-principal <- 16000
-annual_rate <- 4.5
-years <- 6
+principal <- 17000
+annual_rate <- 9.25
+years <- 5
 
 monthly_payment <- monthly_payment(principal, annual_rate, years)
 
 monthly_payment
+interest_payments <- monthly_payment * total_payments - principal
 
+interest_payments
