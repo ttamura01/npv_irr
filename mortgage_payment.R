@@ -14,8 +14,8 @@ monthly_payment <- function (principal, annual_rate, years) {
   return(payment)
 }
 
-principal <- 200000
-annual_rate <- 7
+principal <- 220000
+annual_rate <- 5.8
 years <- 30
 
 monthly_payment <- monthly_payment(principal, annual_rate, years)
