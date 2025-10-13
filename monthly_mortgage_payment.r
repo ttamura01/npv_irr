@@ -58,7 +58,7 @@ monthly_payment %>%
   annotate("label", x = 1, y = 1331 * 0.9, label = "$1,331", size = 6) +
   annotate("label", x = 2, y = 1225 * 0.75, label = "$1,225", size = 6) +
   annotate("label", x = 3, y = 1174 * 0.6, label = "$1,174\nreflect\nrate-cut", size = 6) +
-  annotate("label", x = 4, y = 1267 * 0.775, label = "$1,267\nrefect\nrate-cut\n&\nvalue-up", size = 6, vjust =1) +
+  annotate("label", x = 4, y = 1267 * 0.775, label = "$1,267\nreflect\nrate-cut\n&\nvalue-up", size = 6, vjust =1) +
   scale_fill_manual(
     values = c(
       "1" = "#004D40",  # dark green
